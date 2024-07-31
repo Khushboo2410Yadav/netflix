@@ -1,0 +1,583 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/net.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+}
+
+img{
+    height: 70px;
+    width: 160px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 10%;
+}
+#cont>#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+li> button{
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+select{
+    padding: 6px 10px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+}
+/* ----------------------------------section------------------------------------- */
+
+    section{
+        text-align: center;
+        /* background-color: aqua; */
+        margin-top: 10%;
+    }
+    section>h1{
+        font-size: 3rem;
+        color: white;
+        margin-bottom: 0;
+    }
+    section>p{
+        font-size: 1.5rem;
+        color: white;
+    }
+    section>h2{
+        font-weight: 100px;
+        color: white;
+        font-size: 1.2rem;
+    }
+    section>input{
+        height: 40px;
+        width: 30%;
+        background-color: transparent;
+        border-color: rgba(186, 180, 180, 0.915);
+        font-size: 1.5rem;
+    
+    }
+    ::placeholder
+    {
+        color: rgba(235, 231, 231, 0.579);
+        background-color: rgba(0, 0, 0, 0.549);
+        padding: 1.1rem;
+    }
+    section>button{
+        height: 45px;
+        width: 15%;
+        margin-left: 20px;
+        background-color: red;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        color: white;
+    }
+
+    /* -----------------------Media---------------------- */
+    #enjoy
+    {
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        margin-top: 30%;
+        border-top: 5px solid grey;
+        margin-top: 21%;
+        padding-top: 10%;
+        margin-bottom: -21%;
+    }
+    #text
+    {
+        /* background-color: yellow; */
+        width: 48%;
+        color: white;
+    }
+    #text>h2
+    {
+        font-size: 3rem;
+    }
+    #text>p
+    {
+        font-size: 1.5rem;
+    }
+    #media
+    {
+        /* background-color: blue; */
+        width: 48%;
+    }
+    #media>img
+    {
+        width: 100%;
+        height: 365px;
+        position: relative;
+        z-index: 2;
+    }
+    #media>video
+    {
+        position: absolute;
+        top: 20%;
+        left: 13%;
+        width: 75%;
+        z-index: 1;
+    }
+    #media
+    {
+        position: relative;
+    }
+
+    /* ---------------Watch--------------------- */
+    #watch
+    {
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        margin-top: 22%;
+        margin-bottom: -22%;
+        border-top: 5px solid grey;
+        padding-top: 12%;
+    }
+    #text2
+    {
+        /* background-color: blue; */
+        width: 48%;
+        color: white;
+    }
+    #text2>h2
+    {
+        font-size: 3rem;
+    }
+    #text2>p
+    {
+        font-size: 1.5rem;
+    }
+    #media2
+    {
+        /* background-color: aqua; */
+        width: 48%;
+    }
+    #media2>img
+    {
+        width: 100%;
+        height: 365px;
+        position: relative;
+        z-index: 2;
+    }
+    #media2>video
+    {
+        position: absolute;
+        top: 10%;
+        left: 18%;
+        width: 63%;
+        z-index: 1;
+    }
+    #media2
+    {
+        position: relative;
+    }
+
+    /* -----------------Children---------------- */
+    #children
+    {
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        margin-top: 22%;
+        margin-bottom: -22%;
+        border-top: 5px solid grey;
+        padding-top: 12%;
+    }
+    #text3
+    {
+        /* background-color: hotpink; */
+        width: 48%;
+        color: white;
+    }
+    #text3>h2
+    {
+        font-size: 3rem;
+    }
+    #text3>p
+    {
+        font-size: 1.5rem;
+    }
+    #media3
+    {
+        /* background-color: blue; */
+        width: 48%;
+        position: relative;
+    }
+    #media3>img
+    {
+        width: 100%;
+        height: 365px;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* ---------------Download---------------------- */
+    #down
+    {
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        margin-top: 22%;
+        margin-bottom: -22%;
+        border-top: 5px solid grey;
+        padding-top: 12%;
+        
+    }
+    #media4
+    {
+        /* background-color: blue; */
+        width: 48%;
+        position: relative;
+    }
+    #media4>img
+    {
+        width: 190%;
+        height: 345px;
+        position: relative;
+        z-index: 2;
+    }
+    #text4
+    {
+        /* background-color: yellow; */
+        width: 48%;
+        color: white;
+    }
+    #text4>h2
+    {
+        font-size: 3rem;
+    }
+    #text4>p
+    {
+        font-size: 1.5rem;
+    }
+    #down2
+    {
+        background-color: black;
+        width: 70%;
+        height:80px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       position: absolute;
+       left: 10%;
+       top: 70%;
+       z-index: 2;
+       border: 2px solid grey;
+       border-radius: 0.5rem;
+    }
+    
+    #downmedia
+    {
+    position: relative;
+    }
+    #stranger
+    {
+        width: 20%;
+    }
+    #things{
+        width: 60%;
+        color: white;
+    }
+    #gif{
+        width: 15%;
+    }
+    #stranger > img{
+        width: 100%;
+    }
+    #gif > img{
+        width: 102%;
+        height: 100%;
+    }
+
+
+    /* --------------------for mobile version------------------- */
+    @media (max-width: 600px)
+    {
+        body
+        {
+            background-image: url(./images/net.jpg);
+            background-size: 240%;
+            background-repeat: no-repeat;
+            
+        }
+        li> button
+        {
+            padding: 2px 24px;
+            border-radius: 5px;
+            color: white;
+        }
+        section
+        {
+            text-align: center;
+            margin-top: 10%;
+           
+        }
+        section>h1{
+            font-size: 2.4rem;
+            color: white;
+            margin: 0;
+        }
+        section>h2
+        {
+            font-size: 1.8rem;
+            margin: 1rem;
+        }
+        section>input
+        {
+            height: 40px;
+            width: 80%;
+            background-color: transparent;
+            border-color: black;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        ::placeholder
+        {
+            color: rgba(235, 231, 231, 0.579);
+            background-color: rgba(0, 0, 0, 0.549);
+            padding: 1.1rem;
+        }
+        section>button
+        {
+            height: 45px;
+            width: 35%;
+            margin-left: 20px;
+            background-color: red;
+            border-radius: 5px;
+            border: none;
+            font-size: 20px;
+            color: white;
+          
+        } 
+
+        /* --------------media------------------ */
+     #enjoy
+    {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10%;
+        border-top: 7px solid rgba(128, 128, 128, 0.628);
+        border-bottom: 7px solid rgba(128, 128, 128, 0.628);
+       
+    }
+    #text
+    {
+        width: 100%;
+        color: white;
+        margin-top: 4rem;
+    }
+    #text>h2
+    {
+        font-size: 2.4rem;
+    }
+    #text>p
+    {
+        font-size: 1.2rem;
+       
+    }
+    #media
+    {
+        width: 48%;
+    }
+    #media>img
+    {
+        width: 205%;
+        height: 305px;
+        position: relative;
+        z-index: 2;
+    }
+    #media>video
+    {
+        position: absolute;
+        top: 20%;
+        left: 13%;
+        width: 164%;
+        z-index: 1;
+    }
+    #media
+    {
+        position: relative;
+    }
+
+    /* ---------------Watch--------------------- */
+    #watch
+    {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10%;
+        border-bottom: 7px solid rgba(128, 128, 128, 0.628);
+    }
+    #text2
+    {
+        width: 100%;
+        color: white;
+        margin-top: 4rem;
+    }
+    #text2>h2
+    {
+        font-size: 2.4rem;
+    }
+    #text2>p
+    {
+        font-size: 1.2rem;
+    }
+    #media2
+    {
+        width: 48%;
+    }
+    #media2>img
+    {
+        width: 200%;
+        height: 355px;
+        position: relative;
+        z-index: 2;
+    }
+    #media2>video
+    {
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        width: 120%;
+        z-index: 1;
+    }
+    #media2
+    {
+        position: relative;
+    }
+
+    /* -----------------Children---------------- */
+    #children
+    {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10%;
+    }
+    #text3
+    {
+        width: 100%;
+        color: white;
+        margin-top: 4rem;
+    }
+    #text3>h2
+    {
+        font-size: 2.4rem;
+    }
+    #text3>p
+    {
+        font-size: 1.2rem;
+    }
+    #media3
+    {
+        width: 48%;
+        position: relative;
+    }
+    #media3>img
+    {
+        width: 205%;
+        height: 385px;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* ----------------Download--------------- */
+    #down
+    {
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        margin-top: 10%;
+        border-top: 5px solid grey;
+    }
+    #media4
+    {
+        width: 48%;
+        position: relative;
+    }
+    #media4>img
+    {
+        width: 200%;
+        height: 355px;
+        position: relative;
+        z-index: 2;
+    }
+    #text4
+    {
+        width: 48%;
+        color: white;
+        margin-top: 4rem;
+        display: inline-block;
+        text-align: center;
+    }
+    #text4>h2
+    {
+        font-size: 2.4rem;
+    }
+    #text4>p
+    {
+        font-size: 1.2rem;
+    }
+    #down2
+    {
+        background-color: black;
+        width: 70%;
+        height:80px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       position: absolute;
+       left: 14%;
+       top: 70%;
+       z-index: 2;
+       border: 2px solid grey;
+       border-radius: 0.5rem;
+    }
+    
+    #downmedia
+    {
+    position: relative;
+    }
+    #stranger
+    {
+        width: 20%;
+    }
+    #things{
+        width: 60%;
+        color: white;
+    }
+    #gif{
+        width: 15%;
+    }
+    #stranger > img{
+        width: 100%;
+    }
+    #gif > img{
+        width: 102%;
+        height: 100%;
+    }
+    }
